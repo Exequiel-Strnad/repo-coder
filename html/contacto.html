@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto</title>
+    <!--Css-->
+    <link rel="stylesheet" href="/style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="centrar">
+        <h1 class="titulo">¿Querés ser parte del show?</h1>
+    </header>
+
+    <div class="centrar">
+        <img src="/assets/ImagenGuitarra_promocional.jpg" width="600" height="400" alt="imagenguitarrapromocional">
+    </div>
+
+    <main>
+       
+        <form action="/submit" method="post" class="texto">
+            <fieldset>
+                <legend>Primero dinos si eres:</legend>
+                <label for="solista">Solista </label>
+                <input type="radio" name="solista" id="solista">
+                <label for="banda">Banda </label>
+                <input type="radio" name="banda" id="banda">
+                <label for="escuela">Escuela </label>
+                <input type="radio" name="escuela" id="escuela"><br><br>
+            </fieldset>
+        
+            <fieldset>   
+                <legend>Danos tu Gmail:</legend>
+                <label for="email">Email:</label>   
+                <input type="email" name="email" id="email">  
+            </fieldset>   
+        
+            <fieldset>
+                <legend>Dejanos un número con el que podamos contactarte:</legend>
+                <label for="numero"></label>
+                <input type="number" name="numero" id="numero"><br><br> 
+            </fieldset> 
+        
+            <div>
+                <button type="submit" class="titulo">Enviar</button>
+            </div>
+        </form>
+    
+    </main>
+    
+    <footer>
+        <div class="subtitulo">
+            <p>En caso de querer reservar una mesa nos puedes contactar por: <p>
+        </div> 
+        <ul class="titulo">
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">WhattsApp </a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
